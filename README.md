@@ -4,4 +4,9 @@ Thanks to [metabase/metabase](https://github.com/metabase/metabase), [dacort/met
 
 This repository was created with reference to [quintoandar/metabase](https://github.com/quintoandar/metabase).
 
-This repository will be updated on an irregular basis.
+## Local Check
+
+```
+docker build -t metabase-test .
+docker run -d -p 3000:3000 --name metabase metabase-test
+```
