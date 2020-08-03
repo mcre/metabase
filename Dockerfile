@@ -1,6 +1,6 @@
 FROM metabase/metabase:latest
 
-ADD https://github.com/dacort/metabase-athena-driver/releases/download/v1.0.0/athena.metabase-driver.jar plugins/
+ADD https://github.com/dacort/metabase-athena-driver/releases/download/v1.1.0/athena.metabase-driver.jar plugins/
 
 ENV MGID=${MGID:-2000}
 
